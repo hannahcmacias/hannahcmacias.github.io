@@ -1,0 +1,23 @@
+:root {
+    --sage: #caddc7;
+    --darkSage: #a4c79d;
+    --black: #000000;
+    --forest: #062201;
+}
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+
+  body {
+    background: var(--bg);
+}
+
+.main-theme{
+   --bg: var(--sage);
+   --fontColor: var(--forest);
+   --btnBg: var(--darkSage);
+}
+
+
+
