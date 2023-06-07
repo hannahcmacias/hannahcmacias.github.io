@@ -1,22 +1,56 @@
 :root {
-    --sage: #caddc7;
+    --sunshine: #faf4e3;
     --darkSage: #a4c79d;
     --black: #000000;
-    --forest: #062201;
+    --forest: #c23e0082;
+    --size: 48px;
 }
 * {
     color: var(--fontColor);
-    font-family: helvetica;
+    font-family: "Josefin Sans"; 
+    font-size: 48px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; } 
+    h3 { font-family: "Josefin Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+    p { font-family: "Josefin Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+    blockquote { font-family: "Josefin Sans"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Josefin Sans"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+
   }
 
   body {
     background: var(--bg);
 }
+h1{
+  color: #ff7400;
+}
+h2{
+  font-size: 24px;
+}
+h3{
+  color: #000000;
+  font-size: 18px;
+}
 
 .main-theme{
-   --bg: var(--sage);
+   --bg: var(--sunshine);
    --fontColor: var(--forest);
    --btnBg: var(--darkSage);
+}
+.description{
+    height: 90px;
+    width: 700px;
+    text-align: center;
+    border: 1px solid silver;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgb(255, 237, 166);
+    display: table-cell; /* This says treat this element like a table cell */
+    vertical-align:middle; /* Now we can center vertically like in a TD */
+}
+.photo{
+  padding: 5px;
 }
 
 
