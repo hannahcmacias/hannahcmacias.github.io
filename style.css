@@ -2,13 +2,12 @@
     --sunshine: #faf4e3;
     --darkSage: #a4c79d;
     --black: #000000;
-    --forest: #c23e0082;
+    --pink: #c23e0082;
     --size: 48px;
 }
 * {
     color: var(--fontColor);
-    font-family: "Josefin Sans"; 
-    font-size: 48px; 
+    font-family: "Josefin Sans";  
     font-style: normal; 
     font-variant: normal; 
     font-weight: 700; 
@@ -20,6 +19,7 @@
   }
 
   body {
+    font-size: 24px;
     background: var(--bg);
 }
 h1{
@@ -35,7 +35,7 @@ h3{
 
 .main-theme{
    --bg: var(--sunshine);
-   --fontColor: var(--forest);
+   --fontColor: var(--pink);
    --btnBg: var(--darkSage);
 }
 .description{
@@ -46,12 +46,48 @@ h3{
     border-radius: 25px;
     padding: 20px;
     background-color: rgb(255, 237, 166);
-    display: table-cell; /* This says treat this element like a table cell */
-    vertical-align:middle; /* Now we can center vertically like in a TD */
+    display: table-cell; 
+    vertical-align:middle; 
 }
 .photo{
   padding: 5px;
 }
+
+.button1{
+  
+  border: none;
+  color: rgb(255, 255, 255);
+  
+  text-align: center;
+  
+  
+  display: inline-block;
+  font-size: 16px;
+}
+.button2{
+  
+  border: none;
+  color: white;
+  
+  text-align: center;
+  
+  
+  display: inline-block;
+  font-size: 16px;
+}
+.button3{
+  
+  border: none;
+  color: white;
+  
+  text-align: center;
+  
+  
+  display: inline-block;
+  font-size: 16px;
+  
+}
+
 
 
 
